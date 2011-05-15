@@ -1,0 +1,3 @@
+dirverClass=dirverClass
+user=user1
+password=password1

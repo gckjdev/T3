@@ -1,0 +1,24 @@
+Background
+
+	Shows the usage of classes in JDK
+
+Environment
+
+	JDK 1.6 
+		Some part need this version, like the Properties load data from UTF-8 encoding file.
+	
+Usage
+
+	properties		LoadPropertiesFromUtf8File			注意，这个类中读取了一个UTF-8编码格式的文件，这个类文件也需要用UTF-8的编码格式，否则不能正确读取中文。 （具体原因不详，JDK要求要这样？还是Eclipse的问题？）
+	reader			InputStreamReader_ReadUtf8File		注意，同上
+	thread			showing how to create thread, by extends Thread, or by implement Runnable
+	javadoc			showing how to write java doc. View it in Javadoc view, or select "Project" -> "Generate Java doc",
+	threadLocal		showing threadLocal
+	xml             showing xml related usage. if the sample xml file is not there, use the DomDemo to generate it.
+    jdbc            showing jdbc/javaDB. For the net part, seems the stupid hard coded name "derbynet.jar", can not use jar like "derbynet-10.5.3.0.jar"
+
+
+    jaxb.simple                     simple usage of JAXB
+    jaxb.simple.schemaToJava        run "genCode.bat" will generate java files under this dir
+    jaxb.complex                    advanced usage of JAXB, lots of customization, have a detail article: DCC\Programming_Java_XML_XSLT\Article\Exchanging Data with XML and JAXB.pdf
+    jaxb.complex.schemaToJava       run "genCode.bat" will generate java files under jaxb.complex.schemaToJava.generated

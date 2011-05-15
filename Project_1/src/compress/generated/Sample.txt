@@ -1,0 +1,32 @@
+	private String uc  = "+8627220000111";
+	private String[] callerInfo = {"+8627220000000", "testPWD123!@#"};
+	private String[] calleeInfo = {"+8627220000001", "testPWD123!@#"};
+
+
+{"IsMultiMedia":"0"
+
+"ChargedParty":"tel:+8627220000111"
+"SubscriberIdentity":"tel:+8627220000111"
+"CalledPartyNumber":"+8627220000001"
+"CallingPartyNumber":"+8627220000000"
+
+"Partial_id":"000"
+"CallDuration":"0"
+"DevID":"NTT2_REST_CTD_RELCALL_BAS_000"
+"SubscriberProvince":""
+"CalledPartyProvince":""
+"CallingPartyProvince":""
+"ChargedPartyProvince":""
+"GroupNumber":""
+"ImsChargingIdentifier":"81114407135633830505af9f703-0c88-4310-9148-703d9487f25a"
+"CallBeginTime":"0"
+"ServiceID":"NTT2_REST_CTD_RELCALL_BAS_000"
+"ServiceKey":""
+"Cause":""
+"CallEndTime":"0"
+}
+
+
+1||0|+8627220000000||+8627220000001||tel:+8627220000111||tel:+8627220000111||433116963661351365408f3ee5a-e82c-4ab2-8557-325ace96975a|19700101080000|0|19700101080000||NTT2_REST_CTD_RELCALL_BAS_000|NTT2_REST_CTD_RELCALL_BAS_000||000|
+2||0|+8627220000000||+8627220000001||tel:+8627220000111||tel:+8627220000111||58689453077943400659efd0a7e-2009-4c1e-92e2-7bd3ecc5cc12|19700101080000|0|19700101080000||NTT2_REST_CTD_RELCALL_BAS_000|NTT2_REST_CTD_RELCALL_BAS_000||000|
+
